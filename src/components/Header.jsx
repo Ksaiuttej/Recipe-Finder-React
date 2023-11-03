@@ -16,7 +16,7 @@ const Header = () => {
     <div id="header">
       <div id="header-conatiner">
         <div className="logobox">
-          <a href="/">
+          <a href="/#/">
             <img src="https://i.postimg.cc/66PYwyr7/logo-brand.png" alt="logo" className='logo' />
           </a>
 
