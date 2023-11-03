@@ -8,9 +8,12 @@ const Hero = () => {
         <h1>Discover <span>Amazing Recipes</span></h1>
         <p>Explore a world of culinary delights with EatsVoyage. Find and save your favorite recipes from around the globe.</p>
         <div className="btn-box">
-          <a href="/#/search" class="search-link-btn">
+          <Link to="/search">
             <button className="sub">Search Recipes&nbsp;&nbsp; <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span></button>
-          </a>
+          </Link>
+          {/* <a href="/#/search" class="search-link-btn">
+            
+          </a> */}
 
           <div className="inner-border"></div>
         </div>

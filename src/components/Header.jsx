@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -16,9 +16,10 @@ const Header = () => {
     <div id="header">
       <div id="header-conatiner">
         <div className="logobox">
-          <a href="/#/">
+          <Link to="/home">
             <img src="https://i.postimg.cc/66PYwyr7/logo-brand.png" alt="logo" className='logo' />
-          </a>
+          </Link>
+
 
           {/* <div className="brandncap">
                 <h1>EatsVoyage</h1>
@@ -27,7 +28,7 @@ const Header = () => {
         </div>
         {/* <i class="fa-solid fa-bars nav-toggler" aria-expanded="false"></i> */}
         <i className={`fa-solid ${menuIconClass} nav-toggler`} aria-expanded={isMenuOpen} onClick={toggleMenu}></i>
-          
+
         <nav className={navClass}>
           <ul>
             <li className="nav-item"><Link to="/home" className="nav-item" onClick={toggleMenu}>Home</Link></li>
