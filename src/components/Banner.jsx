@@ -9,7 +9,7 @@ const Banner = () => {
         <p>Explore a world of culinary inspiration with EatsVoyage.Say goodbye to mealtime dilemmas and hello to flavorful experiences. Let's embark on a culinary journey together!"</p>
         <div className="btn-box">
           <Link to="/random">
-            <button className="sub">Random Recipes &nbsp;&nbsp;<span><i class="fa-sharp fa-solid fa-arrow-right">  </i></span></button>
+            <button className="sub">Random Recipes&nbsp;&nbsp; <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span></button>
           </Link>
 
           <div className="inner-border"></div>
